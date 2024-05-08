@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "id": 1, "name": "iphone", "category": "техника", "price": 1000 },
+    { "id": 2, "name": "keyboard", "category": "техника", "price": 300 },
+    { "id": 3, "name": "мыло", "category": "чистота", "price": 20 }
+  ]
+}
