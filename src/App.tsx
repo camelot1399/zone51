@@ -1,5 +1,5 @@
 import "./App.css";
-import { Card } from "./components/Card";
+import CardList from "./components/CardList/cardList";
 
 function App() {
   return (
@@ -12,10 +12,7 @@ function App() {
         категорию товара и цену товара. Какое кол-во товаров будет не известно.
         Бэкенд пока не готов. Но времени ждать нет.
       </h2>
-
-      {/* TODO вот тут вывести список товаров, при этом мы знаем, что компонент для товара уже есть */}
-
-      <Card />
+      <CardList />
     </>
   );
 }
