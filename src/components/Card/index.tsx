@@ -1,15 +1,19 @@
+import { FRONT__CATEGORY, FRONT__PRICE, FRONT__TITLE } from "../../api/products/const";
+import { IProduct } from "../../api/products/type";
 import style from "./Card.module.scss";
 
-export const Card = () => {
-  {
-    /* TODO написать коомпонент вывода товара - структуру дива не меняем, только название, категорию и цену  */
-  }
+interface ICardProps {
+  data: IProduct
+}
+
+export const Card = ({data}: ICardProps) => {
+  
   return (
     <div className={style.card}>
       <div className={style.card__wrapper}>
-        <div>Название: клавиатура</div>
-        <div>Категория: техника</div>
-        <div>Цена: 1000 р.</div>
+        <div>Название: {data[FRONT__TITLE]}</div>
+        <div>Категория: {data[FRONT__CATEGORY]}</div>
+        <div>Цена: {data[FRONT__PRICE]} р.</div>
       </div>
     </div>
   );

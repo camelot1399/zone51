@@ -1,0 +1,30 @@
+[
+  {
+    "product_title": "Клавиатура",
+    "product_category": "Техника",
+    "product_price": 1684,
+    "discount": 30
+  },
+
+  {
+    "product_title": "Мыш",
+    "product_category": "Техника",
+    "product_price": 786,
+    "created_at": "10.05.2024"
+  },
+  {
+    "product_title_new_key_name": "Монитор",
+    "product_category": "Техника",
+    "product_price": 16199
+  },
+  {
+    "product_title": "Настольная лампа",
+    "product_category_new_key_name": "Техника",
+    "product_price": 2599
+  },
+  {
+    "product_title": "Настольная лампа",
+    "product_category": "Техника",
+    "product_price_new_key_name": 2599
+  }
+]
