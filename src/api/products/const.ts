@@ -2,7 +2,7 @@ import { KeyValueMappings } from "./type";
 
 // Эндпоинт получения продуктов с бека
 const BASE_URL = "http://localhost:5555/";
-export const PRODUCTS_URL = BASE_URL + "src/api/products/mok_productss.json";
+export const PRODUCTS_URL = BASE_URL + "src/api/products/mok_products.json";
 
 // Front key names
 // Ключи которые мы используем в проекте
