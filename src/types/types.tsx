@@ -1,15 +1,17 @@
 export interface ICard {
-  title: string;
+  name: string;
   category: string;
-  price: number;
+  old_price: number;
+  current_price: number;
   id: number;
   [key: string]: unknown;
 }
 
 export type TPropsCard = {
-  title: string;
+  name: string;
   category: string;
-  price: number;
+  old_price: number;
+  current_price: number;
   id: number;
   [key: string]: unknown;
 };
